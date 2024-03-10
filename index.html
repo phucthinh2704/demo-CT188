@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="inner__header">
+        <div class="inner__header-logo">
+          <img src="./img/logo.png" alt="" id="logo" />
+        </div>
+        <div class="inner__header-search">
+          <input
+            type="text"
+            class="inner__header-search-input"
+            placeholder="Bạn cần tìm gì..."
+          />
+          <i class="fa-solid fa-magnifying-glass inner__header-search-icon"></i>
+        </div>
+        <div class="inner__header-search-detail">
+          <i class="ri-shopping-cart-2-line"></i>
+          <span>0</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- BANNER -->
+      <section class="banner">
+        <span id="prev">
+          <i class="fa-solid fa-arrow-left"></i>
+        </span>
+        <img src="./img/banner/banner1.png" alt="" />
+        <span id="next">
+          <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      </section>
+      <!--  -->
+      <section class="manufacturer">
+        <a class="manufacturer__item">
+          <img src="./img/manufacturer/hp.png" alt="" />
+        </a>
+        <a class="manufacturer__item">
+          <img src="./img/manufacturer/asus.png" alt="" />
+        </a>
+        <a class="manufacturer__item">
+          <img src="./img/manufacturer/acer.png" alt="" />
+        </a>
+        <a class="manufacturer__item">
+          <img src="./img/manufacturer/lenovo.png" alt="" />
+        </a>
+        <a class="manufacturer__item">
+          <img
+            style="transform: scale(1.2)"
+            src="./img/manufacturer/macbook.png"
+            alt=""
+          />
+        </a>
+        <a class="manufacturer__item">
+          <img src="./img/manufacturer/dell.png" alt="" />
+        </a>
+        <a class="manufacturer__item">
+          <img src="./img/manufacturer/msi.png" alt="" />
+        </a>
+      </section>
+
+      <!-- MENU -->
+      <section class="menu">
+        <div class="menu__item">
+          <i class="fa-solid fa-fire"></i>
+          <p>Hot Deals</p>
+        </div>
+        <div class="menu__item">
+          <i class="fa-solid fa-gamepad"></i>
+          <p>Chơi game</p>
+        </div>
+        <div class="menu__item">
+          <i class="fa-brands fa-apple"></i>
+          <p>MacBook</p>
+        </div>
+        <div class="menu__item">
+          <i class="fa-brands fa-windows"></i>
+          <p>Phần mềm</p>
+        </div>
+        <div class="menu__item">
+          <i class="ri-vip-diamond-line"></i>
+          <p>Cao cấp</p>
+        </div>
+        <div class="menu__item">
+          <i class="fa-solid fa-user-tie"></i>
+          <p>Văn phòng</p>
+        </div>
+      </section>
+
+      <section class="hot-deal">
+        <div class="hot-deal__banner">
+          <img src="./img/hot-deal/deal-shock.png" alt="" />
+        </div>
+        <div class="hot-deal__product">
+          <!--  SHOCK DEAL PRODUCTS -->
+          <div class="hot-deal__product-item">
+            <span id="effect">HOT</span>
+            <div class="hot-deal__product-item-image">
+              <img src="./img/hot-deal/item1.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-name">
+              Acer Aspire 3 A315 1135G7
+            </div>
+            <div class="hot-deal__product-item-ram-rom">
+              <span>RAM 8 GB</span>
+              <span>SSD 512 GB</span>
+            </div>
+            <div class="hot-deal__product-item-original-price">
+              <del>14.990.000₫</del>
+              <span>-16%</span>
+            </div>
+            <div class="hot-deal__product-item-sale-price">12.490.000</div>
+            <div class="hot-deal__product-item-gift">Quà <b>100.000₫</b></div>
+            <div class="hot-deal__product-item-rate">
+              <img src="./img/hot-deal/rate-5-star.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-infor">
+              <p>Màn hình: 15.6 inch, Full HD</p>
+              <p>CPU: i5, 1135G7, 2.4GHz</p>
+              <p>Card: Intel Iris Xe</p>
+              <p>Pin: 2-cell, 36.7Wh</p>
+              <p>Khối lượng: 1.7 kg</p>
+            </div>
+          </div>
+          <!--  SHOCK DEAL PRODUCTS -->
+          <div class="hot-deal__product-item">
+            <span id="effect">HOT</span>
+            <div class="hot-deal__product-item-image">
+              <img src="./img/hot-deal/item2.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-name">
+              Asus TUF Gaming F15 i5 11400H
+            </div>
+            <div class="hot-deal__product-item-ram-rom">
+              <span>RAM 16 GB</span>
+              <span>SSD 512 GB</span>
+            </div>
+            <div class="hot-deal__product-item-original-price">
+              <del>22.990.000₫</del>
+              <span>-17%</span>
+            </div>
+            <div class="hot-deal__product-item-sale-price">18.990.000</div>
+            <div class="hot-deal__product-item-gift">Quà <b>800.000₫</b></div>
+            <div class="hot-deal__product-item-rate">
+              <img src="./img/hot-deal/rate-4-star.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-infor">
+              <p>Màn hình: 15.6 inch, Full HD, 144Hz</p>
+              <p>CPU: i5, 11400H, 2.7GHz</p>
+              <p>Card: RTX 3050 4GB</p>
+              <p>Pin: 3-cell, 48Wh</p>
+              <p>Khối lượng: 2.3 kg</p>
+            </div>
+          </div>
+          <!--  SHOCK DEAL PRODUCTS -->
+          <div class="hot-deal__product-item">
+            <span id="effect">HOT</span>
+            <div class="hot-deal__product-item-image">
+              <img src="./img/hot-deal/item3.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-name">HP 240 G9 i5 1235U</div>
+            <div class="hot-deal__product-item-ram-rom">
+              <span>RAM 8 GB</span>
+              <span>SSD 256 GB</span>
+            </div>
+            <div class="hot-deal__product-item-original-price">
+              <del>17.590.000₫</del>
+              <span>-22%</span>
+            </div>
+            <div class="hot-deal__product-item-sale-price">13.590.000</div>
+            <div class="hot-deal__product-item-gift">Quà <b>200.000₫</b></div>
+            <div class="hot-deal__product-item-rate">
+              <img src="./img/hot-deal/rate-5-star.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-infor">
+              <p>Màn hình: 14 inch, Full HD</p>
+              <p>CPU: i5, 1235U, 1.3GHz</p>
+              <p>Card: Intel UHD</p>
+              <p>Pin: 3-cell, 41Wh</p>
+              <p>Khối lượng: 1.47 kg</p>
+            </div>
+          </div>
+          <!--  SHOCK DEAL PRODUCTS -->
+          <div class="hot-deal__product-item">
+            <span id="effect">HOT</span>
+            <div class="hot-deal__product-item-image">
+              <img src="./img/hot-deal/item4.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-name">Asus Vivobook i3115G4</div>
+            <div class="hot-deal__product-item-ram-rom">
+              <span>RAM 8 GB</span>
+              <span>SSD 512 GB</span>
+            </div>
+            <div class="hot-deal__product-item-original-price">
+              <del>10.990.000₫</del>
+              <span>-18%</span>
+            </div>
+            <div class="hot-deal__product-item-sale-price">8.990.000</div>
+            <div class="hot-deal__product-item-gift">Quà <b>100.000₫</b></div>
+            <div class="hot-deal__product-item-rate">
+              <img src="./img/hot-deal/rate-5-star.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-infor">
+              <p>Màn hình: 14 inch, Full HD</p>
+              <p>CPU: i3, 1115G4, 3GHz</p>
+              <p>Card: Intel UHD</p>
+              <p>Pin: 2-cell, 37Wh</p>
+              <p>Khối lượng: 1.55 kg</p>
+            </div>
+          </div>
+          <!--  SHOCK DEAL PRODUCTS -->
+          <div class="hot-deal__product-item">
+            <span id="effect">HOT</span>
+            <div class="hot-deal__product-item-image">
+              <img src="./img/hot-deal/item5.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-name">
+              MacBook Air 13 inch M1 2024
+            </div>
+            <div class="hot-deal__product-item-ram-rom">
+              <span>RAM 8 GB</span>
+              <span>SSD 256 GB</span>
+            </div>
+            <div class="hot-deal__product-item-original-price">
+              <del>19.590.000₫</del>
+              <span>-16%</span>
+            </div>
+            <div class="hot-deal__product-item-sale-price">18.890.000</div>
+            <div class="hot-deal__product-item-gift">Quà <b>300.000₫</b></div>
+            <div class="hot-deal__product-item-rate">
+              <img src="./img/hot-deal/rate-5-star.png" alt="" />
+            </div>
+            <div class="hot-deal__product-item-infor">
+              <p>Màn hình: 13.3 inch, Retina</p>
+              <p>CPU: Apple M1</p>
+              <p>Card: 7 nhân GPU</p>
+              <p>Pin: Lên đến 18h</p>
+              <p>Khối lượng: 1.29 kg</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INFORMATION -->
+      <section class="information">
+        <div class="information__wrapper">
+            <div class="information__wrapper-item">
+                <img src="./img/information/sticky-evo-desk-390x97.webp" alt="">
+            </div>
+            <div class="information__wrapper-item">
+                <img src="./img/information/sticky-office-desk-2-390x97.webp" alt="">
+            </div>
+            <div class="information__wrapper-item">
+                <img src="./img/information/sticky-intel-13-desk-390x97-1.webp" alt="">
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
