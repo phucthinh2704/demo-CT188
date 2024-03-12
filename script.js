@@ -1,6 +1,4 @@
 $(document).ready(() => {
-    //   const goTop = document.querySelector("#go-top");
-    //   goTop.addEventListener("click", () => {});
     $(window).scroll(function () {
       if ($(this).scrollTop()) {
         $("#go-top").fadeIn('fast');
