@@ -48,5 +48,4 @@ $(document).ready(() => {
     showSlide(slideIndex);
     changeDot(slideIndex);
   });
-
   
