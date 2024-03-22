@@ -8,8 +8,7 @@ $(document).ready(() => {
   });
   $("#go-top").click(function (e) {
     e.preventDefault();
-
-    $("html, body").animate({ scrollTop: 0 }, 800);
+    $("html, body").animate({ scrollTop: 0 }, 1000);
   });
 });
 
@@ -47,16 +46,20 @@ next.addEventListener("click", () => {
   changeDot(slideIndex);
 });
 
+setInterval(() => {
+  slideIndex++;
+  showSlide(slideIndex);
+  changeDot(slideIndex);
+}, 4000);
+
 const advise = document.querySelector(".advise");
 const showAdvise = document.getElementById("show-advise");
 const hideAdvise = document.getElementById("hide-advise");
-console.log(hideAdvise);
-// console.log(showAdvise.innerText);
-// console.log(advise, showAdvise);
+
 function toggleShow() {
   advise.classList.toggle("toggle-height");
-  showAdvise.classList.toggle("toggle-advise")
-  hideAdvise.classList.toggle("toggle-advise")
+  showAdvise.classList.toggle("toggle-advise");
+  hideAdvise.classList.toggle("toggle-advise");
 }
 showAdvise.addEventListener("click", toggleShow);
 hideAdvise.addEventListener("click", toggleShow);
