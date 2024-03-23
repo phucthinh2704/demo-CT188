@@ -27,12 +27,6 @@ body > #go-top {
 header {
   background-color: var(--primary-color);
   margin-bottom: 30px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 99999;
-  width: 100%;
-
 }
 .inner__header {
   width: 80%;
@@ -217,9 +211,7 @@ header {
   width: 100%;
 }
 /* MAIN */
-main {
-  margin-top: 130px;
-}
+
 .banner {
   display: flex;
   overflow: hidden;
