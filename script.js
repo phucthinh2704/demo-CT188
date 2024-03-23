@@ -50,7 +50,7 @@ setInterval(() => {
   slideIndex++;
   showSlide(slideIndex);
   changeDot(slideIndex);
-}, 4000);
+}, 3500);
 
 const advise = document.querySelector(".advise");
 const showAdvise = document.getElementById("show-advise");
